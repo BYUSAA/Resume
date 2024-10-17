@@ -1,0 +1,96 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: white;
+    color: #3b2e2c; /* Brown Chocolate */
+}
+
+.header {
+    background-image: url('/Image-Icons/profile.jpeg'); /* Your profile picture */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    /* height: 355px; */
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0); /* Dark overlay for better text contrast */
+    padding: 0px;
+    padding-top: 375px;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ae6320;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.section {
+    padding: 40px;
+    margin: 20px;
+    background-color: #2a315436;
+    border-radius: 10px;
+    padding: 1px;
+}
+footer {
+    display: block;
+    text-align: center;
+    unicode-bidi: isolate;
+    padding-top: 135px;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1, h2 {
+    color: #7e7472;/* Brown Chocolate */
+    font-family: monospace;
+    font-size: 40px; 
+}
+
+h3 {
+    color: #3b2e2c; /* Brown Chocolate */
+}
+
+
+/* Media queries for responsiveness */
+@media (min-width: 768px) {
+    .section {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section {
+        width: 60%;
+        text-align: center;
+    }
+
+    .navbar li {
+        margin: 0 30px;
+    }
+    footer {
+        position: static;
+    }
+
+}
