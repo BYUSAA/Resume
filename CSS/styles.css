@@ -53,10 +53,9 @@ footer {
     display: block;
     text-align: center;
     unicode-bidi: isolate;
-    padding-top: 135px;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
@@ -77,16 +76,19 @@ h3 {
     --link-color: darkblue;
 }
 
+/* Dark mode styles */
+body.dark-mode {
+    --background-color: #1a1a1a;
+    --text-color: #f1f1f1;
+}
 
 .theme-switcher {
     margin-bottom: 20px;
 }
 
-/* Dark mode styles */
-body.dark-mode {
-    --background-color: #1a1a1a;
-    --text-color: #f1f1f1;
-    --link-color: #4da6ff;
+/* Text with adaptive color */
+.auto-text {
+    transition: color 0.3s;
 }
 
 
