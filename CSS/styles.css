@@ -1,7 +1,7 @@
 /* General styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 20px;
     padding: 0;
     height: 100%;
     background-color: var(--background-color);
